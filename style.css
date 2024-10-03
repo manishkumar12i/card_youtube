@@ -15,7 +15,7 @@ body{
 
 .sm-card{
     height: 166px;
-    min-width:1057px;
+    min-width:100%;
     border-radius: 10px;
     background: url('/images/banner.jpg');
     background-size: 100% 100%;
@@ -114,12 +114,10 @@ span{
     align-items: center;
     }
     .profile-content img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: absolute;
         top: 180px;
-        right: 210px;
-        height: 75px;
+        right: 220px;
+        height: 120px;
     } 
 
     .title{
@@ -132,8 +130,9 @@ span{
     span{
         display: flex;
         position: absolute;
-        bottom: 10px;
+        bottom: 0px;
         left: 30px;
+        font-size: 8px;
     }
 
     .link1{
@@ -149,9 +148,9 @@ span{
         display: flex;
         bottom: 10px;
         left:30px;
+        font-size: 12px;
     }
     .sm-card{
-        height: auto;
         width: 100%;
         border-radius: 20px;
         background: url('/images/banner.jpg');
